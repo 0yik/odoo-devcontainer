@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoo: Run and Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "/usr/bin/odoo",
+            "args": [
+                "--config=${workspaceFolder}/config/odoo.conf"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
