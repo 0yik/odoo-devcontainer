@@ -32,4 +32,3 @@ git clone https://github.com/0yik/odoo-devcontainer.git
 - Run the Dev Containers: Open Folder in Container... command from the Command Palette (F1) or quick actions Status bar item, and select the project folder odoo-devcontainer.
 - The VS Code window will reload and start building the dev container. A progress notification provides status updates. You only have to build a dev container the first time you open it; opening the folder after the first successful build will be much quicker.
 - After the build completes, VS Code will automatically connect to the container.
-- 
