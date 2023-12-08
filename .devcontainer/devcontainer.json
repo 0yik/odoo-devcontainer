@@ -1,15 +1,8 @@
 {
-	"name": "Odoo 16",
-	"image": "odoo16-devcontainer",
-	"initializeCommand": [
-		"docker",
-		"build",
-		"--platform=linux/x86_64",
-		"--tag=odoo16-devcontainer",
-		"-f",
-		".devcontainer/Dockerfile",
-		"."
-	],
+	"name": "Odoo 17",
+	"build": {
+		"dockerfile": "Dockerfile"
+	  },
 	"forwardPorts": [
 		8069
 	],
@@ -26,11 +19,11 @@
 					"pythonPath": "/usr/bin/python3",
 					"analysis.extraPaths": [
 						"/usr/lib/python3/dist-packages/odoo/addons",
-						"/var/lib/odoo/addons/16.0"
+						"/var/lib/odoo/addons/17.0"
 					],
 					"autoComplete.extraPaths": [
 						"/usr/lib/python3/dist-packages/odoo/addons",
-						"/var/lib/odoo/addons/16.0"
+						"/var/lib/odoo/addons/17.0"
 					],
 					"editor.formatOnType": true,
 					"editor.formatOnSaveMode": "file",
@@ -44,7 +37,7 @@
 					]
 				},
 				"workbench.colorCustomizations": {
-					"titleBar.activeBackground": "#f54444"
+					"titleBar.activeBackground": "#004b27"
 				}
 			},
 			// Add the IDs of extensions you want installed when the container is created.
