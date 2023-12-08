@@ -9,7 +9,8 @@
             "args": [
                 "--config=${workspaceFolder}/config/odoo.conf"
             ],
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "justMyCode": false,
         }
     ]
 }
